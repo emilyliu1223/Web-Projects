@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  color: #88a82f;
+}
+
+.app_form{
+  padding:20px;
+  position:fixed;
+  bottom:0;
+  z-index:1;
+  background-color: #c3cf7d;
+  color: #3c4603;
+  width:90%;
+  margin:20px;
+}
+.app__formControl{
+  display:flex !important;
+   flex-direction:row !important;
+   color: #3c4603 !important;
+}
+.app__input{
+  flex:1;
+  color: #3c4603 !important;
+}
+.app__iconButton{
+  flex:0;
+  color: #3c4603 !important;
+}
