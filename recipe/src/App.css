@@ -1,0 +1,135 @@
+.App {
+  min-height: 100vh;
+  align-items: center;
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  font-family: 'Playfair Display', serif;
+}
+
+.search-form {
+  min-height:10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width:50%;
+  border:none;
+  padding:10px;
+}
+
+
+
+.card{
+  margin: 20px
+}
+.Detail{
+  display: flex;
+  font-family: 'Alata', sans-serif;
+  
+}
+.Detail__info{
+   background-color: #d49a89;
+   position: fixed;
+   height: 100%;
+   width:300px;
+   color:#f4f4f4;
+  
+}
+.Detail__img{
+  border-radius: 0.1rem;
+ 
+}
+.Detail__steps{
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+  
+}
+.Detail__steps div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:.4rem;
+
+}
+
+.fake{
+  position: absolute;
+  left: 350px;
+  top: 0;
+  width: 600px;
+  
+}
+
+.ingre__photo{
+  width: 80px;
+  margin:0 50px;
+}
+
+/* Make the image responsive */
+
+
+/* Style the button and place it in the middle of the container/image */
+.label {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:none;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border:1px solid white;
+}
+.label a{
+  text-decoration: none;
+}
+.label a:hover{
+  font-weight: bold;
+ 
+}
+
+.title{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.digest{
+  position: fixed;
+  left: 1000px;
+  padding-top:50px;
+  top: 0px;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Alata', sans-serif;
+  font-weight: bold;
+  background-color:#d49a89;
+  
+  
+}
+.digest-list{
+  margin-left: 1.5rem;
+  display:flex;
+  flex-direction: row;
+  padding-top:20px;
+  color:#f7d1ba;
+  
+}
+
+.steps{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
